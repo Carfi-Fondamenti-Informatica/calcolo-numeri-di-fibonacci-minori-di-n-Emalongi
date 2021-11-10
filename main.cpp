@@ -5,7 +5,7 @@ int main() {
    prec=i;
    cin>>n;
    cout<<"1"<<endl;
-   for(i=2;i<=n;i++){
+   for(i=0;i<=n;i++){
        ris=prec+succ;
        prec=succ, succ=ris;
        if(ris<=n){
