@@ -6,7 +6,7 @@ int main() {
     a=i;
     cin>>n;
     cout<<"1"<<endl;
-    for(i=1;i<=n;i++){
+    for(int i=1;i<=n;i++){
         c=a+b;
          a=b;
          b=c;
