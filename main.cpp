@@ -15,3 +15,6 @@ int main() {
                 cout << ris << endl;
             }
         }
+         }
+    return 0;
+}
