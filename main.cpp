@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 int main() {
-   int n=0,prec=0, succ=1,ris=0,i=0;
-   prec=i;
-   cin>>n;
-   cout<<"1"<<endl;
-   for(i=0;i<=n;i++){
-       ris=prec+succ;
-       prec=succ, succ=ris;
-       if(ris<=n){
-           cout<< ris<< endl;
-       }
-   }
+    int n = 0, prec = 0, succ = 1, ris = 0, i = 0;
+    prec = i;
+    cin >> n;
+    if (n != 0) {
+        cout<< "1"<<endl;
+        for (i = 0; i <= n; i++) {
 
-    return 0;
-}
+            ris = prec + succ;
+            prec = succ, succ = ris;
+
+            if (ris <= n) {
+                cout << ris << endl;
+            }
+        }
